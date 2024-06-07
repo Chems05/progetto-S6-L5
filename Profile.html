@@ -9,6 +9,7 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+
     <title>Document</title>
   </head>
   <body class="text-bg-dark">
@@ -16,19 +17,18 @@
       <div class="">
         <img
           src="./Netflix-assets/assets/netflix_logo.png"
-          alt="Netflix Logo"
+          alt=""
           width="130px"
           class=""
         />
       </div>
     </footer>
-
     <main>
       <div class="d-flex justify-content-center mt-5">
         <div class="w-25">
           <p class="h1">Edit Profile</p>
           <hr />
-          <div class="d-flex">
+          <div class=" d-flex">
             <img
               class="rounded-2 me-3"
               src="./Netflix-assets/icon/tumblr_o14bsx7Obs1sf1pyoo9_400.jpg"
@@ -36,22 +36,11 @@
               width="140px"
             />
             <div>
-              <input
-                class="bg-secondary rounded-0 border-0"
-                type="text"
-                style="height: 30px; width: 18rem; margin-bottom: 27px;"
-              />
+              <input class="bg-secondary rounded-0 border-0" type="text" style="height: 30px; width: 18rem; margin-bottom: 27px;"/>
               <p class="text-secondary h5">Language:</p>
               <div class="dropdown">
-                <button
-                  class="btn text-white bg-black dropdown-toggle rounded-0 border-white"
-                  type="button"
-                  id="dropdownMenuButton"
-                  data-bs-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  English...
+                <button class="btn text-white bg-black dropdown-toggle rounded-0 border-white" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 English...
                 </button>
                 <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                   <a class="dropdown-item" href="#">Action</a>
@@ -61,32 +50,31 @@
               </div>
             </div>
           </div>
-          <hr />
-          <div>
-            <p class="text-secondary">Maturity Settings</p>
-            <div class="bg-secondary" style="width: 12rem;">
-              <p class="m-0">ALL MATURITY RATINGS:</p>
-            </div>
-            <p>Show titles of all maturity ratings for this profile</p>
-            <button class="me-2 bg-dark text-secondary">EDIT</button>
-            <hr />
-            <p>Autoplay controls</p>
-            <label>
-              <input type="checkbox" /> Autoplay next episode in a series on all
-              devices
-            </label>
-            <br />
-            <label>
-              <input type="checkbox" /> Autoplay previews while browsing on all
-              devices
-            </label>
+          <hr>
+          <div class="d-flex justify-content-end">
+              <div>
+<p class="text-secondary:">Maturity Settings</p>
+<div class=" bg-secondary w-75">
+    <p class="">ALL MATURITY RAITINGS:</p>
+</div>
+<p>show titles of all maturity ratings for tshi profile</p>
+<div> 
+   <p class="bg-dark text-secondary border" style=" width: 50px;">_EDIT</p>
+   <hr>
+   <br>
+   <p>Autoplay controls</p>
+   <label for="checkbox"> <input type="checkbox">Autoplay next episode in a series on all devices</label>
+   <br>
+   <br>
+   <label for="checkbox"> <input type="checkbox">Autoplay next episode in a series on all devices</label>
+</div>
+</div>
           </div>
-          <hr />
-          <div class="d-flex justify-content-center">
+          <hr>
+          <span class="d-flex justify-content-center"> 
             <button class="me-2 bg-dark text-secondary h5">SAVE</button>
             <button class="me-2 bg-dark text-secondary h5">CANCEL</button>
             <button class="me-2 bg-dark text-secondary h5">DELETE PROFILE</button>
-          </div>
         </div>
       </div>
     </main>
